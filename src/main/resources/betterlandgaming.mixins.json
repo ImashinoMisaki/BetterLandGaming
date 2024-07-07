@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.github.imashinomisaki.betterlandgaming.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+  ],
+  "client": [
+    "GameRendererMixin",
+    "HeldItemRendererMixin",
+    "LightmapTextureManagerMixin",
+    "LivingEntityRendererMixin",
+    "ParticleManagerMixin",
+    "TntEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
